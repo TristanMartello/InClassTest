@@ -3,7 +3,7 @@ from secrets import ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY, ssid, wifi_password
 import time
 import simple as mqtt
 
-def sending(message):
+def sending():
     broker = '10.243.51.89' #change this as needed
     ssid = 'Tufts_Wireless'
     password = ''
