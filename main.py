@@ -30,6 +30,7 @@ def main():
     while True:
         if sending != "":
             broker.publish(listen_channel, sending)
+            sending = ""
     
 main()
 
